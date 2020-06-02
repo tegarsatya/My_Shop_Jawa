@@ -8,10 +8,13 @@
 	<title><?= isset($title) ? $title: 'CiShop'?></title>
 	<link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/navbar-fixed/">
 	<!-- Bootstrap core CSS -->
+	<link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/navbar-fixed/">
+
+		<!-- Bootstrap core CSS -->
 	<link href="assets/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<!-- Fontawesome -->
+		<!-- Fontawesome CSS -->
 	<link rel="stylesheet" href="assets/libs/fontawesome/css/all.min.css">
-	<!-- Css -->
+		<!-- Custom styles for this template -->
 	<link rel="stylesheet" href="assets/css/app.css">
 </head>
 <body>
