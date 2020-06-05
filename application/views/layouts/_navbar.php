@@ -14,7 +14,7 @@
 					<div class="dropdown-menu" aria-labelledby="dropdown-1">
 						<a href="<?= base_url('category')?>" class="dropdown-item"> Kategori</a>
 						<a href="<?= base_url('product')?>" class="dropdown-item">Produk</a>
-						<a href="admin-order.html" class="dropdown-item"> Order</a>
+						<a href="<?= base_url('order')?>" class="dropdown-item"> Order</a>
 						<a href="<?= base_url('user')?>" class="dropdown-item">Pengguna</a>
 					</div>
 				</li>
@@ -35,7 +35,7 @@
 					<a href="#" class="nav-link dropdown-toggle" id="dropdown-2" data-toggle="dropdown" aria-hospopup="true" aria-expanded="false"><?= $this->session->userdata('name')?></a>
 					<div class="dropdown-menu" aria-labelledby="dropdown-2">
 						<a href="<?= base_url('profile') ?>" class="dropdown-item"> Profile</a>
-						<a href="orders.html" class="dropdown-item">Orders</a>
+						<a href="<?= base_url('/myorder')?>" class="dropdown-item">Orders</a>
 						<a href="<?= base_url('/logout')?>" class="dropdown-item">Logout</a>
 					</div>
 				</li>

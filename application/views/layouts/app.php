@@ -5,7 +5,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
 	<meta name="generator" content="Jekyll v3.8.6">
-	<title><?= isset($title) ? $title: 'CiShop'?></title>
+	<title><?= isset($title) ? $title: 'MyShopJawa'?></title>
 	<link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/navbar-fixed/">
 	<!-- Bootstrap core CSS -->
 	<link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/navbar-fixed/">
